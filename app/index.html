@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline';">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline';">
+  <link href="assets/css/menu_topo.css" rel="stylesheet">
+  <link href="assets/css/webview.css" rel="stylesheet">
+  <title>PLINX</title>
+</head>
+
+<body>
+  <div id="title-bar">
+    <div id="title">
+      PLINX
+    </div>
+    <div id="title-bar-btns">
+      <label id="alwaysontop_label" for="alwaysontop">Sempre visível</label>
+      <input type="checkbox" id="alwaysontop">
+
+      <button id="min-btn">-</button>
+      <button id="max-btn">+</button>
+      <button id="close-btn">x</button>
+    </div>
+  </div>
+
+  <script src="botoesDaJanela.js"></script>
+
+  <!-- You can also require other files to run in this process -->
+  <script src="../renderer.js"></script>
+</body>
+
+</html>

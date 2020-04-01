@@ -1,0 +1,35 @@
+body {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    #title-bar {
+      -webkit-app-region: drag;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      vertical-align: middle;
+      background-color: #410C60;
+      padding: none;
+      margin: 0px;
+    }
+
+    #title {
+      position: fixed;
+      top: 0px;
+      left: 10px;
+      color: white;
+
+    }
+
+    #title-bar-btns {
+      -webkit-app-region: no-drag;
+      position: fixed;
+      top: 0px;
+      right: 10px;
+    }
+
+    #alwaysontop_label {
+      color: #fff;
+      font-size: 14px;
+    }
